@@ -42,3 +42,17 @@ One of our attacking strategies to trap Pacman in a corner:
 
 Reach out to me for the[ source code](https://github.com/huynhvinh/Smart-Pacman-Ghosts)
 
+## The X-Factor: A Machine Learning model to predict popularity of an input song
+
+While most of the current machine learning research on music focuses on building recommendation systems, auto-generating music tracks and personalizing music tracks, few have tackled the problem of providing feedback on tracks to improve popularity.
+
+In our group project, we will build a system using both supervised and unsupervised techniques with a two-fold goals
+
+1. To gain insight into the features that are most important in determining the popularity of a song, as determined by the public. This will require an analysis of both the commonly observed traits of hit songs and the commonly unobserved traits of unpopular songs.
+2. We also aim to build a model that can accurately forecast the popularity of a song [1]. We suggest minimal changes to the song based on our findings from the previous step, and aim to give a quantifiable increase in popularity by incorporating the aforementioned changes.
+
+
+<img src="/images/X-factor.png" alt="X-factor" width="500"/>
+
+More details about the project: [click here](https://huynhvinh.github.io/X-Factor.github.io/)
+
