@@ -9,6 +9,7 @@ We obtained the video datasets from the Georgia Tech Stadium-IoPT at http://esta
 <img src="/images/football_architect.png" alt="football_architect" width="500"/>
 
 Source Code can be found[ here](https://github.com/huynhvinh/football_plays_video_recognition)
+
 More details about the project: [click here](https://docs.google.com/presentation/d/1d4isbu5wujBa6oj3CAjtQQiMlrNS8Jlu/edit#slide=id.p7)
 
 ## MRI scan using semi supervised Learning
@@ -20,4 +21,22 @@ In this project, we investigated the effects of several self supervised models t
 <img src="/images/barlow_pipeline.png" alt="Barlow Twins Pipeline" width="500"/>
 
 Source Code can be found[ here](https://github.com/huynhvinh/fastMRI)
+
+## Experimenting group behaviour in Pacman ghosts
+
+This is an interesting final project for Game AI class, in which we applied Artificial Intelligent into an simple old-fashioned Pacman game engine.
+
+In this project, we experiment with different behaviours for the ghosts in Pacman game. The goal is to give users different levels of difficulty when playing the game. In Pacman, the player makes Pacman, a yellow disc, move around a maze. The goal is to eat every yellow pellet (circles) while notgetting caught by the ghosts/monsters.
+
+We are using the Pacman game engine developed for UC Berkeley’s introductory artificial intelligence course. The engine provides other basic functionality like moving the Pacman, adding walls, pelletsand APIs for a lot of other things. 
+
+We aim at trying out different coordinated ghost behaviours. By talking with each other, the ghosts will be able to determine what to do to targets based on different attacking strategies: 
+1. Prowl: Lock Pacman in a region
+2. Corner: Attack Pacman from 4 directions or cover exit points to trap it
+3. Barrage: Come at Pacman from one direction
+We also implement leading attacks using bfs based on Pacman current direction. 
+
+One of our attacking strategies to trap Pacman in a coners: 
+
+<img src="/images/edited_pac.png" alt="edited_pac" width="500"/>
 
