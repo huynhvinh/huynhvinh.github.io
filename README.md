@@ -36,7 +36,9 @@ We aim at trying out different coordinated ghost behaviours. By talking with eac
 3. Barrage: Come at Pacman from one direction
 We also implement leading attacks using bfs based on Pacman current direction. 
 
-One of our attacking strategies to trap Pacman in a coners: 
+One of our attacking strategies to trap Pacman in a corner: 
 
 <img src="/images/edited_pac.png" alt="edited_pac" width="500"/>
+
+Reach out to me for the[ source code](https://github.com/huynhvinh/Smart-Pacman-Ghosts)
 
