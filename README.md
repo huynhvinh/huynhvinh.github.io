@@ -1,4 +1,12 @@
-## Welcome to GitHub Pages
+# Van Vinh Huynh - GitHub Projects
+
+## MRI scan using semi supervised Learning
+
+MRI is one of the most pervasive imaging techniques. However, it is expensive to generate MRI scans. Previous attempts to use deep learning required large amounts of supervised data. However, this supervised data necessarily requires that a huge number of full MRI scans are resolved. Thus, the amount of unlabeled data far exceeds the amount of labeled data. 
+
+In this project, we investigated the effects of several self supervised models that make use of unlabeled data to the fastMRI problem. We could get similar results as baseline using Barlow Twins and are able to obtain significantly better results than the baseline using Fixmatch.
+
+
 
 You can use the [editor on GitHub](https://github.com/huynhvinh/huynhvinh.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
